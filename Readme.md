@@ -2,7 +2,7 @@ This file contains part of what I was able to develop during my internship at LE
 The code is open source so I have no privacy constraints on it.
 
 I developed everything except programs in this file :
-LekaOS-cedric_lk_imu\drivers\CoreIMUlsm6dsox\extern
+***LekaOS-cedric_lk_imu\drivers\CoreIMUlsm6dsox\extern***
 
 
 ## '/driver'
