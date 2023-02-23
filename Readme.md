@@ -1,5 +1,5 @@
 This file contains part of what I was able to develop during my internship at LEKA. 
-The code is opensource so I have no constraints on this.
+The code is open source so I have no privacy constraints on it.
 
 I developed everything except this file :
 LekaOS-cedric_lk_imu\drivers\CoreIMUlsm6dsox\extern
