@@ -144,10 +144,7 @@ auto main() -> int
 					auto index				= indexCurrentInterrupt;
 					const auto sizeSequence = static_cast<int>(shape->getSizeSequence());
 					for (auto i = 1; i < sizeSequence; ++i) {
-						index++;
-						if (index == sizeSequence) {
-							index = 0;
-						}
+						index = (index + 1)%sizeSequence;
 
 						if (shape->getItemAtIndex(index) != motion::game::output_class_sequence.at(
 																(motion::game::SEQUENCE_SIZE - 1) - sizeSequence + i)) {
