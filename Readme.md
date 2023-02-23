@@ -14,7 +14,7 @@ It contains libraries with the different variables and functions useful for prog
 ## '/spikes'
 It contains programs that can be sent to the robot to serve as a test. 
 Flashing a spike on the robot allows you to only launch it without being impacted by all the robot's features.
-(Everything in their main.cpp)
+(Everything is included in their main.cpp)
 
 - **'/spikes/lk_imu_app'** : The function of this program is to send data from the inertial unit at a certain frequency.
 	At the same time, a process is launched which makes it possible to modify the frequency of sending via an RFID card
