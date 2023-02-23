@@ -6,7 +6,7 @@ LekaOS-cedric_lk_imu\drivers\CoreIMUlsm6dsox\extern
 
 
 ## '/driver'
-This file contains a "CoreIMUlsm6dsox"'s driver file which allows to interact with the inertial unit of the robot and retrieve his data.
+This file contains a "CoreIMUlsm6dsox"'s driver file which allows to interact with the inertial unit of the robot and retrieving its data
 
 ## '/libs/MotionKit'
 It contains libraries with the different variables and functions useful for programs of the **'/spikes'** file.
@@ -23,8 +23,8 @@ Flashing a spike on the robot allows you to only launch it without being impacte
 
 
 - **'/spikes/lk_imu_mlc'**: the functions of this program are :
-		- to read the data from the inertial unit via specific registers
-		- to interpret the movement carried out by its decision tree integrated into the sensor 
-		- to draw the shape obtained on the screen of the robot.
+		to read the data from the inertial unit via specific registers
+		to interpret the movement carried out by its decision tree integrated into the sensor 
+		to draw the shape obtained on the screen of the robot.
 
 	***Demo video**: https://www.youtube.com/watch?v=bGj-rXCwy2c&ab_channel=C%C3%A9dricDiavorini*
